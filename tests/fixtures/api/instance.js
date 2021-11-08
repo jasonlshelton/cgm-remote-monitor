@@ -83,7 +83,7 @@ function configure () {
         setTimeout(function watchDog() {
           if (!hasBooted)
             reject('timeout');
-        }, 30000);
+        }, 6000);
 
       } catch (err) {
         reject(err);
